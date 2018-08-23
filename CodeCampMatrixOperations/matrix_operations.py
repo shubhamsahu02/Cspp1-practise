@@ -18,7 +18,7 @@ def mult_matrix(mat_1, mat_2):
     # rows = len(mat_1)
     cols = len(mat_2[0])
     rows_2 = len(mat_2)
-    for i, value in enumerate(mat_1):
+    for i, _ in enumerate(mat_1):
         # print(i, value)
         for j in range(cols):
             sum_value = 0
